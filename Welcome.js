@@ -111,7 +111,7 @@ bot(
     // Send welcome message with buttons
     await sendButtonMessage(message.jid, welcomeMessage, buttons, {
       quoted: message.data,
-      media: 'https://i.imgur.com/sample-welcome.jpg', // Replace with your image URL
+      media: 'https://i.postimg.cc/jdXVC0Z2/1000006645-11zon-1.jpg', // Replace with your image URL
       viewOnce: false,
     })
 
