@@ -1,0 +1,26 @@
+{
+  "type": "welcome",
+  "trigger": "new_member",
+  "message": "🎉 *Hey @user, Welcome to the Vibe Tribe!* 🌟\n\n📸 Drop your photo below to join the fun!\n👇 Pick your vibe:\n\n⚡ *Rules*: Be kind, no spam, stay active! 😎",
+  "media": "https://i.imgur.com/welcome-banner.jpg", 
+  "buttons": [
+    {
+      "buttonId": "gender_boy",
+      "buttonText": { "displayText": "👦 Boy" },
+      "type": 1,
+      "response": "Yo @user, you're in as a *Boy*! 🚀 Check out the group chats and vibe with us!"
+    },
+    {
+      "buttonId": "gender_girl",
+      "buttonText": { "displayText": "👧 Girl" },
+      "type": 1,
+      "response": "Hey @user, you're in as a *Girl*! 🌸 Dive into the fun and make new friends!"
+    }
+  ],
+  "settings": {
+    "auto_detect_photo": true,
+    "expire_after": "12h",
+    "allow_multiple_selections": false,
+    "welcome_enabled": true
+  }
+}
